@@ -1,0 +1,29 @@
+.main-header__options1{
+  background-color: rgb(31, 36, 49);
+  display: flex;
+  justify-content: space-between;
+  padding: 6px;
+}
+
+.main-header__options1 a{
+  color: grey;
+  padding: 6px;
+}
+
+.container {
+  display: flex;
+}
+
+.profile-options{
+  position: relative;
+}
+
+.main-header__options2{
+  background-color: rgb(32, 34, 39);
+  padding: 10px;
+}
+
+.main-header__options2 a{
+  color: white;
+  padding: 6px;
+}
