@@ -7,7 +7,11 @@
 
 .main-header__options1 a{
   color: grey;
-  padding: 6px;
+  padding: 6px 12px 6px 0px; 
+}
+
+.main-header__options1 a:hover{
+  color: white;
 }
 
 .container {
@@ -26,4 +30,18 @@
 .main-header__options2 a{
   color: white;
   padding: 6px;
+}
+
+.test {
+  background-color: blue;
+  position: absolute;
+  margin-top: 6px;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
 }

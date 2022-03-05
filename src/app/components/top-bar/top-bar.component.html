@@ -3,8 +3,19 @@
   <div class="main-header__options1">
 
     <ul class="container main-options">
-      <li><a href="">Meats</a></li>
-      <li><a href="">Ver</a></li>
+
+      <li><a href="#" class="option" (click)="active='Meats';clicked=true"  (mouseover)="active='Meats'">Meats</a>
+        <ul class="test hidden" [ngClass]="{'show': active == 'Meats' && clicked==true }" >
+          <li *ngFor="let item of listMeats">{{item}}</li>
+        </ul>
+      </li>
+
+      <li><a href="#" class="option" (click)="active='Ver'; clicked=true" (mouseover)="active='Ver'" >Ver</a>
+        <ul class="test hidden" [ngClass]="{'show': active == 'Ver' && clicked==true }">
+          <li *ngFor="let item of listMeats">{{item}}</li>
+        </ul>
+      </li>
+
       <li><a href="">Friends</a></li>
       <li><a href="">Products</a></li>
       <li><a href="">Helps</a></li>
