@@ -8,9 +8,14 @@
 .main-header__options1 a{
   color: grey;
   padding: 6px 12px 6px 0px; 
+  font-size: 12px;
 }
 
 .main-header__options1 a:hover{
+  color: white;
+}
+
+.option-menu li a:hover{
   color: white;
 }
 
@@ -30,11 +35,14 @@
 .main-header__options2 a{
   color: white;
   padding: 6px;
+  font-size: 20px;
 }
 
-.test {
-  background-color: blue;
+.option-menu {
+  background-color: rgb(55,59,67);
   position: absolute;
+  padding: 6px;
+  padding-left: 18px;
   margin-top: 6px;
 }
 
@@ -44,4 +52,8 @@
 
 .show {
   display: block;
+}
+
+.option {
+  color: white;
 }
