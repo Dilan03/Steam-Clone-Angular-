@@ -4,31 +4,31 @@
 
     <ul class="container main-options">
 
-      <li><a href="#" class="option" (click)="active='Meats';clicked=true"  (mouseover)="active='Meats'" >Meats</a>
+      <li><a class="option" (click)="active='Meats';clicked=true"  (mouseover)="active='Meats'" >Meats</a>
         <ul class="option-menu hidden" [ngClass]="{'show': active == 'Meats' && clicked==true }" >
           <li *ngFor="let item of listMeats"><a href="#">{{item}}</a></li>
         </ul>
       </li>
 
-      <li><a href="#" class="option" (click)="active='Ver'; clicked=true" (mouseover)="active='Ver'" >Ver</a>
+      <li><a class="option" (click)="active='Ver'; clicked=true" (mouseover)="active='Ver'" >Ver</a>
         <ul class="option-menu hidden" [ngClass]="{'show': active == 'Ver' && clicked==true }">
           <li *ngFor="let item of listVer"><a href="#">{{item}}</a></li>
         </ul>
       </li>
 
-      <li><a href="#" class="option" (click)="active='Friends'; clicked=true" (mouseover)="active='Friends'" >Friends</a>
+      <li><a class="option" (click)="active='Friends'; clicked=true" (mouseover)="active='Friends'" >Friends</a>
         <ul class="option-menu hidden" [ngClass]="{'show': active == 'Friends' && clicked==true }">
           <li *ngFor="let item of listFriends"><a href="#">{{item}}</a></li>
         </ul>
       </li>
 
-      <li><a href="#" class="option" (click)="active='Products'; clicked=true" (mouseover)="active='Products'" >Products</a>
+      <li><a class="option" (click)="active='Products'; clicked=true" (mouseover)="active='Products'" >Products</a>
         <ul class="option-menu hidden" [ngClass]="{'show': active == 'Products' && clicked==true }">
           <li *ngFor="let item of listProducts"><a href="#">{{item}}</a></li>
         </ul>
       </li>
 
-      <li><a href="#" class="option" (click)="active='Help'; clicked=true" (mouseover)="active='Help'" >Help</a>
+      <li><a class="option" (click)="active='Help'; clicked=true" (mouseover)="active='Help'" >Help</a>
         <ul class="option-menu hidden" [ngClass]="{'show': active == 'Help' && clicked==true }">
           <li *ngFor="let item of listHelp"><a href="#">{{item}}</a></li>
         </ul>
@@ -45,10 +45,10 @@
 
   <div class="main-header__options2">
     <ul class="container Meats-options">
-      <li><a href="">TIENDA</a></li>
-      <li><a href="">BIBLIOTECA</a></li>
-      <li><a href="">COMUNIDAD</a></li>
-      <li><a href="">USER</a></li>
+      <li><a class="default-menu" routerLink="/tienda" routerLinkActive="active">TIENDA</a></li>
+      <li><a class="default-menu" routerLink="/biblioteca" routerLinkActive="active">BIBLIOTECA</a></li>
+      <li><a class="default-menu" routerLink="/comunidad" routerLinkActive="active">COMUNIDAD</a></li>
+      <li><a class="default-menu" routerLink="/user" routerLinkActive="active">USER</a></li>
     </ul>
   </div>
 

@@ -9,6 +9,7 @@
   color: grey;
   padding: 6px 12px 6px 0px; 
   font-size: 12px;
+  cursor: pointer;
 }
 
 .main-header__options1 a:hover{
@@ -33,7 +34,6 @@
 }
 
 .main-header__options2 a{
-  color: white;
   padding: 6px;
   font-size: 20px;
 }
@@ -57,3 +57,14 @@
 .option {
   color: white;
 }
+
+
+.default-menu.active {
+  color: red;
+}
+
+.default-menu {
+  color: white;
+}
+
+
