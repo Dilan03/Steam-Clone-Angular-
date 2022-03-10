@@ -1,0 +1,11 @@
+app-top-bar {
+  position: fixed;
+  width: 100vw;
+}
+
+app-footer-bar {
+  font-size: 12px;
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+}

@@ -1,0 +1,23 @@
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(32, 34, 39); 
+  height: 60px;
+  padding: 0 35px 0 25px ;
+  color: rgb(197,203,216);
+}
+
+.container-footer a:hover {
+  color: white;
+}
+
+.container-footer__item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+a {
+  cursor: pointer;
+}

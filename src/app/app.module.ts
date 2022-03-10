@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TopBarComponent } from './components/top-bar/top-bar.component';
+import { FooterBarComponent } from './components/footer-bar/footer-bar.component';
 
 
 @NgModule({
@@ -11,6 +12,7 @@ import { TopBarComponent } from './components/top-bar/top-bar.component';
     AppComponent,
     TopBarComponent,
     routingComponents,
+    FooterBarComponent,
   ],
   imports: [
     BrowserModule,

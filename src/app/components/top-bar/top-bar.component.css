@@ -7,7 +7,7 @@
 
 .main-header__options1 a{
   color: grey;
-  padding: 6px 12px 6px 0px; 
+  padding: 6px 22px 6px 0px; 
   font-size: 12px;
   cursor: pointer;
 }
@@ -35,7 +35,6 @@
 
 .main-header__options2 a{
   padding: 6px;
-  font-size: 20px;
 }
 
 .option-menu {
@@ -60,11 +59,14 @@
 
 
 .default-menu.active {
-  color: red;
+  text-decoration-thickness: 10px;
+  color: white;
+  
 }
 
 .default-menu {
-  color: white;
+  font-size: 20px;
+  color: rgb(197,203,216);
 }
 
 
