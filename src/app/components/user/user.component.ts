@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FriendsService } from 'src/app/friends.service';
 
 @Component({
   selector: 'app-user',
@@ -7,9 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserComponent implements OnInit {
 
-  constructor() { }
+  public friends:any[] = [];
+  public friendsList:any[] = [];
+
+  constructor(private _friendsService: FriendsService) { }
 
   ngOnInit(): void {
+    this.friends = this._friendsService.getFriends();
+
+    for (let index = 0; index < 5; index++) {
+      this.friendsList[index] = this.friends[index];      
+    }
+
+    console.log(this.friendsList[0].name)
   }
 
+  
 }

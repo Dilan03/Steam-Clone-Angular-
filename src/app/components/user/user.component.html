@@ -1,16 +1,56 @@
-<div class="box-user">
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ducimus nulla cupiditate incidunt, repellendus consectetur iusto magni, blanditiis magnam eius dolorem aspernatur doloremque similique tempore. Amet quia tenetur repellendus aperiam!</p>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ducimus nulla cupiditate incidunt, repellendus consectetur iusto magni, blanditiis magnam eius dolorem aspernatur doloremque similique tempore. Amet quia tenetur repellendus aperiam!</p>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ducimus nulla cupiditate incidunt, repellendus consectetur iusto magni, blanditiis magnam eius dolorem aspernatur doloremque similique tempore. Amet quia tenetur repellendus aperiam!</p>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ducimus nulla cupiditate incidunt, repellendus consectetur iusto magni, blanditiis magnam eius dolorem aspernatur doloremque similique tempore. Amet quia tenetur repellendus aperiam!</p>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ducimus nulla cupiditate incidunt, repellendus consectetur iusto magni, blanditiis magnam eius dolorem aspernatur doloremque similique tempore. Amet quia tenetur repellendus aperiam!</p>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ducimus nulla cupiditate incidunt, repellendus consectetur iusto magni, blanditiis magnam eius dolorem aspernatur doloremque similique tempore. Amet quia tenetur repellendus aperiam!</p>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ducimus nulla cupiditate incidunt, repellendus consectetur iusto magni, blanditiis magnam eius dolorem aspernatur doloremque similique tempore. Amet quia tenetur repellendus aperiam!</p>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ducimus nulla cupiditate incidunt, repellendus consectetur iusto magni, blanditiis magnam eius dolorem aspernatur doloremque similique tempore. Amet quia tenetur repellendus aperiam!</p>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ducimus nulla cupiditate incidunt, repellendus consectetur iusto magni, blanditiis magnam eius dolorem aspernatur doloremque similique tempore. Amet quia tenetur repellendus aperiam!</p>
+<div class="container-user">
+  <div class="box-user">
 
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ducimus nulla cupiditate incidunt, repellendus consectetur iusto magni, blanditiis magnam eius dolorem aspernatur doloremque similique tempore. Amet quia tenetur repellendus aperiam!</p>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ducimus nulla cupiditate incidunt, repellendus consectetur iusto magni, blanditiis magnam eius dolorem aspernatur doloremque similique tempore. Amet quia tenetur repellendus aperiam!</p>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ducimus nulla cupiditate incidunt, repellendus consectetur iusto magni, blanditiis magnam eius dolorem aspernatur doloremque similique tempore. Amet quia tenetur repellendus aperiam!</p>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ducimus nulla cupiditate incidunt, repellendus consectetur iusto magni, blanditiis magnam eius dolorem aspernatur doloremque similique tempore. Amet quia tenetur repellendus aperiam!</p>
+    <div class="box-user__left">
+      <div class="profile pic">
+
+        <div class="picture">
+          <img src="../../../assets/img/img1.jpg" alt="">
+        </div>
+
+        <div class="description">
+          <h2>User Name</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad labore consectetur velit praesentium.</p>
+        </div>
+
+      </div>
+
+      <div class="profile actividad">
+        <p>Actividad reciente</p>
+        <p>27.2 h en estas 2 semanas</p>
+      </div>
+      
+      <div class="profile juegos"></div>
+      <div class="profile juegos"></div>
+      <div class="profile juegos"></div>
+
+    </div>
+
+    <div class="box-user__right">
+      
+      <div class="sidebar level"></div>
+      <div class="sidebar options">
+        <ul>
+          <li><a href="">Insignias</a></li>
+          <li><a href="">Juegos</a></li>
+          <li><a href="">Inventario</a></li>
+          <li><a href="">Capturas</a></li>
+          <li><a href="">Videos</a></li>
+          <li><a href="">Articulos de Workshop</a></li>
+          <li><a href="">Reseñas</a></li>
+          <li><a href="">Guías</a></li>
+          <li><a href="">Artwork</a></li>
+        </ul>
+      </div>
+      <div class="sidebar friends">
+        <a href="">Amigos {{friends.length}}</a>
+        <ul>
+          <li *ngFor="let friend of friendsList"><div>{{friend.name}}</div></li>
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
 </div>
