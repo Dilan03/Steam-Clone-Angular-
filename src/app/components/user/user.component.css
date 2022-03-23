@@ -82,6 +82,38 @@
 }
 
 .friends {
+  padding: 12px;
   background-color: aquamarine;
   height: 40%;
+}
+
+.friends-box {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  background-color: orange;
+}
+
+.friends-box__img img{
+  height: 40px;
+  width: 40px;
+}
+
+.friends-box__img {
+  display: flex;
+  align-items: center;
+}
+
+.friends-box__name {
+  width: 70px;
+  font-size: 12px;
+}
+
+.friends-box__level {
+  display: flex;
+  width: 35px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 75px;
+  background-color: aqua;
 }

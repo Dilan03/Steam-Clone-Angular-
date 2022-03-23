@@ -1,1 +1,25 @@
-<p>biblioteca works!</p>
+<div class="biblioteca-container">
+  <div class="mainbox-biblioteca">
+
+    <div class="search-game">
+
+      <ul class="search-gameLists">
+        <div class="category">
+          <div class="display-box"></div> <a>Category 1</a>
+        </div>
+        <li *ngFor="let game of category1">{{game.title}}</li>
+      </ul>
+
+      <ul class="search-gameLists">
+        <div class="category">
+          <div class="display-box"></div> <a>Category 1</a>
+        </div>
+        <li *ngFor="let game of category2">{{game.title}}</li>
+      </ul>
+
+    </div>
+
+    <app-game-page></app-game-page>
+
+  </div>
+</div>

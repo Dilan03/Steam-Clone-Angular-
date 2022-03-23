@@ -20,7 +20,6 @@ export class UserComponent implements OnInit {
       this.friendsList[index] = this.friends[index];      
     }
 
-    console.log(this.friendsList[0].name)
   }
 
   

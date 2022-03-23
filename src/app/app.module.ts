@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { TopBarComponent } from './components/top-bar/top-bar.component';
 import { FooterBarComponent } from './components/footer-bar/footer-bar.component';
 import { FriendsService } from './friends.service';
+import { GamePageComponent } from './components/game-page/game-page.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { FriendsService } from './friends.service';
     TopBarComponent,
     routingComponents,
     FooterBarComponent,
+    GamePageComponent,
   ],
   imports: [
     BrowserModule,

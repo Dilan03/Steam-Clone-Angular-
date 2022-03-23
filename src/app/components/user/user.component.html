@@ -45,7 +45,11 @@
       <div class="sidebar friends">
         <a href="">Amigos {{friends.length}}</a>
         <ul>
-          <li *ngFor="let friend of friendsList"><div>{{friend.name}}</div></li>
+          <li *ngFor="let friend of friendsList"><div class="friends-box">
+            <div class="friends-box__img"><img src="../../../assets/img/img1.jpg" alt=""></div>
+            <div class="friends-box__name"><p>{{friend.name}}</p><p>{{friend.status}}</p></div>
+            <div class="friends-box__level"> <p>{{friend.level}}</p> </div>
+          </div></li>
         </ul>
 
       </div>
