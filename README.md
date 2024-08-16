@@ -1,6 +1,10 @@
-# SteamClone
+# **Steam Clone**
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.3. (WORK IN PROGRESS)
+A project created for learning purposes, replicating the Steam user interface.
+
+## **Technologies**
+- **Angular 12**
+- **Typescript**
 
 ## Development server
 
